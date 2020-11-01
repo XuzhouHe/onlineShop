@@ -13,4 +13,6 @@ public class Application {
         PaymentAction paymentAction = (PaymentAction) container.getBean("paymentAction");
         paymentAction.pay(new BigDecimal(2));
     }
+
+    //this is a test for github
 }
